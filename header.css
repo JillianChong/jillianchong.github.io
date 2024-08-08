@@ -1,0 +1,68 @@
+@font-face {
+    font-family: UrbanistBlack;
+    src: url('/fonts/Urbanist-font/static/Urbanist-Black.ttf');
+
+    font-family: UrbanistBold;
+    src: url('/fonts/Urbanist-font/static/Urbanist-Bold.ttf');
+
+    font-family: UrbanistMedium;
+    src: url('/fonts/Urbanist-font/static/Urbanist-Medium.ttf');
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f7fcff;
+}
+
+body, .header {
+    width: 100%;
+}
+
+.header {
+    overflow: hidden;
+    padding: 10px 50px;
+
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #f7fcff;
+}
+
+.header a {
+    float: left;
+    color: #57646e;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: UrbanistBold, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-right {
+    float: right;
+}
+
+/* fix media responsiveness  & adjust widths  & fix spacing between contents*/
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+}
