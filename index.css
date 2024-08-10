@@ -107,7 +107,7 @@ body {
     transform: scale(1.1);
 }
 
-img {
+.project-image {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     float: left;

@@ -27,9 +27,18 @@ body {
     width: 100%;
 }
 
+#subwaydle-divion {
+    line-height: normal;
+}
+
 .project-title {
     font-family: DM-Sans-Light;
     font-weight: bold;
     font-size: 50px;
     margin-top: 90px;
+}
+
+.project-main-image {
+    width: 50%;
+    height: auto;
 }

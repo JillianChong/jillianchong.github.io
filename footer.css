@@ -13,10 +13,6 @@
     src: url('/fonts/DM_Sans/static/DMSans_18pt-SemiBold.ttf');
 }
 
-body {
-    width: 100%;
-}
-
 .footer {
     width: 70%;
     margin-bottom: 50px;
@@ -41,4 +37,33 @@ body {
 
 .contact {
     font-size: 15px;
+}
+
+.icon-container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.icon-link {
+    padding-top: 15px;
+}
+
+.icon-image {
+    width: 40px;
+    height: auto;
+    transform: scale(1);
+}
+
+.icon-image {
+    width: 40px;
+    height: auto;
+    transform: scale(1);
+}
+
+.icon-image:hover {
+    transform: scale(1.4);
 }
