@@ -17,12 +17,15 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
         crossorigin="anonymous"></script>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
     <script>
         $(document).ready(function() {
             $(".header").load("header.html", function(response, status, xhr) {});
-        })
-            
+        });
+
+        $(document).ready(function() {
+            $(".footer").load("footer.html", function(response, status, xhr) {});
+        });
     </script>
 </head>
 
@@ -39,7 +42,7 @@
     <main class="projects-content">
         <!-- <h1 id="projects-title">Projects</h1> -->
         <div class="projects">
-            <div class="project">
+            <div class="project" id="subwaydle-card">
                 <img src="images/subwaydle/subwaydle_computer.png" class="project-image">
                 <div class="project-info">
                     <div class="project-name">Subwaydle Unlimited</div>
@@ -48,14 +51,14 @@
                     <!-- <div class="read-more">Read more &#8594;</div> -->
                 </div>
             </div>
-            <div class="project">
+            <div class="project" id="todolist-card">
                 <img src="images/todolist/todolist_computer.png" class="project-image">
                 <div class="project-info">
                     <div class="project-name">To Do List</div>
                     <div class="project-desc">A static application for organizing and prioritizing tasks</div>
                 </div>
             </div>
-            <div class="project">
+            <div class="project" id="superhamster-card">
                 <img src="images/superhamster/superhamster_computer.png" class="project-image">
                 <div class="project-info">
                     <div class="project-name">Super Hamster Party</div>
@@ -65,7 +68,7 @@
                 </div>
             </div>
 
-            <div class="project">
+            <div class="project" id="genetics-card">
                 <img src="images/genetics/genetics_computer.png" class="project-image">
                 <div class="project-info">
                     <div class="project-name">Genetics Game</div>
@@ -84,9 +87,6 @@
         </div>
     </main>  
 
-    <hr id="division2" width="70%" size="2" color="#c9ceec">
-
-    <main class="contact-me">
-        <div class="thanks">Thank you for checking out my page!</div>
-    </main>
+    <!-- <hr id="division2" width="70%" size="2" color="#c9ceec"> -->
+    <div class="footer"></div>
 </body>
