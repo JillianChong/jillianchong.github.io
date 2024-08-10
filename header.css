@@ -44,7 +44,15 @@
 
 .header-right {
     float: right;
+
+    transition: all 1s ease;
 }
+
+.header-right a:hover {
+    background-color: #c9ceec;
+}
+
+
 
 /* fix media responsiveness  & adjust widths  & fix spacing between contents*/
 @media screen and (max-width: 500px) {
