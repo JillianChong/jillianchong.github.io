@@ -29,11 +29,11 @@ body {
     flex-direction: column;
     justify-content: center;
 
-    padding: 200px 50px;
+    padding: 200px 50px 100px 50px;
 
     font-family: UrbanistBlack, sans-serif;
-    color: #57646e;
-    /* color: black; */
+    /* color: #57646e; */
+    color: #292b2f;
 }
 
 #name {
@@ -58,19 +58,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+
+    padding-bottom: 80px;
 }
 
 #projects-title {
-    font-family: UrbanistMedium, sans-serif;
+    /* font-family: UrbanistMedium, sans-serif; */
+    font-family: UrbanistBlack, sans-serif;
     font-size: 40px;
     font-weight: bold;
-    color: #57646e;
+    color: #292b2f;
+
+    padding: 30px 0px 10px 0px;
 
     /* width: 100%; UNEVEN??? */
     /* text-align: left; */
 
-    /* padding? */
 }
 
 .projects {
@@ -84,14 +88,15 @@ body {
     gap: 30px; */
 
     display: grid;
-    /* grid-template-columns: auto 0px auto;
+    grid-template-columns: auto auto;
     justify-content: space-evenly;
-    align-content: space-around; */
-
+    align-content: space-evenly;
+/* 
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    justify-content: space-between;
+    grid-row-gap: 1fr; */
 
-    /* gap: 20px; */
+    gap: 40px;
 
 }
 
@@ -103,9 +108,9 @@ body {
     justify-content: center;
     align-items: center;
 
-    /* background-color: #f0f3f5; */
     border: 2px solid #e1e5e8;
     border-radius: 15px;
+    background-color: rgba(225, 229, 232, 0.5);
 
     /* padding: 20px 0px; */
 }
@@ -116,6 +121,8 @@ img {
     float: left;
     max-width: 60%;
     height: auto;
+
+    padding: 30px 0px;
 }
 
 .project-info {
@@ -129,7 +136,7 @@ img {
 
     padding: 20px;
 
-    color: #57646e;
+    color: #292b2f;;
 }
 
 .project-name {
@@ -143,6 +150,8 @@ img {
 .project-desc {
     font-family: UrbanistBlack, sans-serif;
     font-size: 18px;
+
+    color: #40444b;
 }
 
 .read-more {
