@@ -1,24 +1,14 @@
 @font-face {
-    font-family: UrbanistBlack;
-    src: url('/fonts/Urbanist-font/static/Urbanist-Black.ttf');
-
-    font-family: UrbanistBold;
-    src: url('/fonts/Urbanist-font/static/Urbanist-Bold.ttf');
-
-    font-family: UrbanistMedium;
-    src: url('/fonts/Urbanist-font/static/Urbanist-Medium.ttf');
+    font-family: DM-Sans-Light;
+    src: url('/fonts/DM_Sans/static/DMSans_18pt-Light.ttf');
 }
 
-html, body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #f7fcff;
+@font-face {
+    font-family: DM-Sans-Bold;
+    src: url('/fonts/DM_Sans/static/DMSans_18pt-Bold.ttf');
 }
 
-body, .header {
+.header {
     width: 100%;
 }
 
@@ -29,16 +19,17 @@ body, .header {
     position: fixed;
     top: 0;
     z-index: 99;
-    background-color: #f7fcff;
+    /* background-color: #f7fcff; */
+    background-color: #eff0f9;
 }
 
 .header a {
     float: left;
-    color: #57646e;
+    color: #292b2f;
     text-align: center;
     padding: 10px 30px;
     text-decoration: none;
-    font-family: UrbanistBold, sans-serif;
+    font-family: DM-Sans-Bold;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
