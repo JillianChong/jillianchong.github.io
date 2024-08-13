@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="/project-pages/project.css"> 
+    <link rel="stylesheet" href="/header.css"> 
+    <link rel="stylesheet" href="/footer.css"> 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".header").load("/header.html", function(response, status, xhr) {});
+        });
+
+        $(document).ready(function() {
+            $(".footer").load("/footer.html", function(response, status, xhr) {});
+        });
+    </script>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="project-title">To Do List</div>
+    <hr id="todolist-division" width="45%" size="2" color="#c9ceec">
+    <img src="/images/todolist/todolist_computer.png" class="project-main-image">
+
+    <div class="project-overview">DESCRIPTION</div>
+
+    <div class="slider-carousel">
+        <div id="slide-1">
+            <img src="/images/todolist/todolist.png" class="carousel-image">
+        </div>
+        <div id="slide-2">
+            <img src="insert" alt="image 2" class="carousel-image">
+        </div>
+        <div id="slide-3">
+            <img src="insert" alt="image 3" class="carousel-image">
+        </div>
+    </div>
+
+    <div class="footer"></div>
+</body>
