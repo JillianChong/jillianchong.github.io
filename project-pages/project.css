@@ -75,7 +75,7 @@ body {
     font-family: DM-Sans-Light;
     font-size: 18px;
 
-    padding: 15px 0px 60px 0px;
+    padding: 15px 0px 50px 0px;
 }
 
 .project-button-container {
@@ -156,16 +156,21 @@ body {
     box-sizing: border-box;
 }
 
-.slider-carousel {
+.image-grid {
+    width: 65%;
+    padding-bottom: 50px;
+}
+
+/* .slider-carousel {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
 
     width: 50%;
     border-radius: 15px;
-}
+} */
 
-.slider-carousel > div {
+/* .slider-carousel > div {
     display: flex;
     flex-shrink: 0;
     width: 100%;
@@ -173,14 +178,14 @@ body {
     scroll-snap-align: start;
     scroll-behavior: smooth;
 
-    /* background-color: rgba(201, 206, 236, 0.5); */
+    background-color: rgba(201, 206, 236, 0.5);
     justify-content: center;
     align-items: center;
-}
+} */
 
-.carousel-image {
+/* .carousel-image {
     height: 100%;
     width: auto;
 
     border: 5px solid rgba(45, 58, 110, 0.2);
-}
+} */

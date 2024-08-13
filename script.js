@@ -3,10 +3,10 @@
 cards = ["subwaydle-card", "todolist-card", "superhamster-card", "genetics-card"]
 hrefs = ["subwaydle.html", "todolist.html", "superhamster.html", "genetics.html"]
 
-project_code = ["subwaydle-github"]
-project_code_hrefs = ["https://github.com/JillianChong/Subwaydle"]
-project_play = ["subwaydle-game"]
-project_play_hrefs = ["https://subwaydle.onrender.com/"]
+project_code = ["subwaydle-github", "todolist-github"]
+project_code_hrefs = ["https://github.com/JillianChong/Subwaydle", "https://github.com/JillianChong/todo-list"]
+project_play = ["subwaydle-game", "todolist-game"]
+project_play_hrefs = ["https://subwaydle.onrender.com/", "https://jillianchong.github.io/todo-list/"]
 
 window.onload = function() {
     for(var i = 0; i < cards.length; i++) {
