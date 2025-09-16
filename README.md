@@ -1,0 +1,1 @@
+Developer View: Right click index.html and Open with Live Server view
